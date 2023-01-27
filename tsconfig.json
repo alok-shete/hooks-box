@@ -1,0 +1,27 @@
+{
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"],
+  "compilerOptions": {
+    "module": "esnext",
+    // "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    // "paths": {
+    //   "~*": ["src/*"]
+    // } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist/esm",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
